@@ -6,6 +6,7 @@ Actions=extractAndDelete
 
 [Desktop Action extractAndDelete]
 Name=Extract Here and Delete
+Name[de]=Hier entpacken und löschen
 Name[nl]=Hier uitpakken en verwijderen
 Icon=archive-extract
 Exec=ark -ba %u && rm %u
